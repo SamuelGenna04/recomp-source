@@ -1,0 +1,32 @@
+{
+  "name": "Recomp",
+  "identifier": "com.samuelgenna.recomp.source",
+  "iconURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/icon.png",
+  "apps": [
+    {
+      "name": "Recomp",
+      "bundleIdentifier": "com.samuelgenna.recomp",
+      "developerName": "Samuel",
+      "subtitle": "Dieta, notifiche e allenamenti",
+      "localizedDescription": "Piano dieta per turno, notifiche per pasti, creatina e acqua, allenamenti da Liftoff e check-in settimanale.",
+      "iconURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/icon.png",
+      "tintColor": "#FF6A00",
+      "versions": [
+        {
+          "version": "1.0.5",
+          "date": "2026-10-15",
+          "localizedDescription": "Prima versione di Recomp: dieta per turno, notifiche, Liftoff, check-in con AI.",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.0.5.ipa",
+          "size": 1932455,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "version": "1.0.5",
+      "versionDate": "2026-10-15",
+      "versionDescription": "Prima versione di Recomp: dieta per turno, notifiche, Liftoff, check-in con AI.",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.0.5.ipa",
+      "size": 1932455
+    }
+  ],
+  "news": []
+}
