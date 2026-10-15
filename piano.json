@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "updated": "2026-10-15",
+  "note": "Piano 2.300 kcal per la ricomposizione",
+  "kcal": 2300,
+  "protein": 180,
+  "fat": 70,
+  "carbs": 235,
+  "waterLiters": 3.0,
+  "creatineGrams": 5,
+  "slots": {
+    "colazione": {
+      "kcal": 450,
+      "protein": 30
+    },
+    "pranzo": {
+      "kcal": 700,
+      "protein": 45
+    },
+    "spuntino": {
+      "kcal": 300,
+      "protein": 25
+    },
+    "cena": {
+      "kcal": 680,
+      "protein": 50
+    }
+  },
+  "breakfastOptions": [
+    {
+      "id": "A",
+      "title": "Dolce con yogurt",
+      "detail": "Yogurt greco 0% 250 g + cereali o avena 40 g + 1 banana + 1 cucchiaino di miele"
+    },
+    {
+      "id": "B",
+      "title": "Salata",
+      "detail": "Pane 70 g + 2 uova + bresaola o crudo sgrassato 50 g + 1 frutto"
+    },
+    {
+      "id": "C",
+      "title": "Latte e cereali",
+      "detail": "Latte p.s. 250 ml + cereali 50 g + yogurt greco 0% 150 g + 1 frutto"
+    },
+    {
+      "id": "D",
+      "title": "Veloce",
+      "detail": "Yogurt greco 0% 250 g + 1 frutto"
+    }
+  ],
+  "lunchOptions": [
+    {
+      "id": "P1",
+      "title": "Riso e pollo",
+      "detail": "Riso basmati 90 g + petto di pollo 200 g a cubetti + pomodorini + olio 1 cucchiaio + 1 frutto"
+    },
+    {
+      "id": "P2",
+      "title": "Pasta al tonno",
+      "detail": "Pasta 100 g + 2 scatolette di tonno al naturale + passata 100 g + olio 1 cucchiaino + 1 frutto"
+    },
+    {
+      "id": "P3",
+      "title": "Pasta al ragù",
+      "detail": "Pasta 100 g + ragù con macinato magro 150 g e passata + parmigiano 10 g + 1 frutto"
+    },
+    {
+      "id": "P4",
+      "title": "Poke fatto in casa",
+      "detail": "Riso 90 g + pollo 200 g (o 2 scatolette di tonno) + pomodorini + salsa di soia + 1 frutto"
+    },
+    {
+      "id": "P5",
+      "title": "Panino al tacchino",
+      "detail": "Pane 120 g + fesa di tacchino 120 g + mozzarella light 60 g + pomodori + 1 frutto"
+    },
+    {
+      "id": "P6",
+      "title": "Patate e uova",
+      "detail": "Patate 300 g al forno + 2 uova + 150 g di albume + parmigiano 10 g + pomodori + 1 frutto"
+    },
+    {
+      "id": "P7",
+      "title": "Tagliata e patate",
+      "detail": "Manzo 200 g + patate 300 g + pomodori + olio 1 cucchiaio"
+    },
+    {
+      "id": "M1",
+      "title": "Mensa",
+      "detail": "Secondo di carne, uova o tonno abbondante + un solo carboidrato (pasta, riso, patate o pane) + pomodori + frutto"
+    },
+    {
+      "id": "M2",
+      "title": "Poke al locale",
+      "detail": "Base riso normale + doppia proteina (pollo o tonno) + pomodorini + soia. No maionese, spicy mayo, tempura"
+    },
+    {
+      "id": "M3",
+      "title": "Fuori: piadineria o ristorante",
+      "detail": "Piadina con bresaola o cotto + pomodoro, niente salse. Oppure carne alla griglia + patate al forno o pane"
+    }
+  ],
+  "lunchRules": [
+    "Proteina sempre, abbondante (palmo e mezzo): carne, uova o tonno",
+    "Un solo carboidrato: pasta o riso oppure patate oppure pane",
+    "Pomodori se ci sono",
+    "Un frutto come dessert",
+    "Da limitare: fritti, panna, formaggio fuso, doppio primo, dolci"
+  ],
+  "pokeRule": "Poke: base riso normale, doppia proteina (pollo o tonno), pomodorini, soia. No maionese, spicy mayo, tempura.",
+  "snackOptions": [
+    {
+      "id": "S1",
+      "title": "Yogurt e gallette",
+      "detail": "Yogurt greco 0% 170 g + 1 frutto + 2 gallette"
+    },
+    {
+      "id": "S2",
+      "title": "Panino bresaola",
+      "detail": "Pane 50 g + bresaola 50 g + 1 frutto"
+    },
+    {
+      "id": "S3",
+      "title": "Fiocchi di latte",
+      "detail": "Fiocchi di latte 200 g + 1 frutto"
+    },
+    {
+      "id": "S4",
+      "title": "Tonno e gallette",
+      "detail": "1 scatoletta di tonno al naturale + 3 gallette + 1 frutto"
+    },
+    {
+      "id": "S5",
+      "title": "Shake whey",
+      "detail": "1 shake (30 g) con acqua o latte + 1 banana"
+    }
+  ],
+  "dinnersByWeekday": {
+    "2": {
+      "id": "lun",
+      "title": "Pollo e riso",
+      "detail": "Petto di pollo 200 g + riso basmati 90 g + passata o pomodori + olio 1 cucchiaio"
+    },
+    "3": {
+      "id": "mar",
+      "title": "Hamburger e patate",
+      "detail": "Hamburger di manzo magro 200 g + patate al forno 300 g + pomodori + olio 1 cucchiaio + 1 frutto"
+    },
+    "4": {
+      "id": "mer",
+      "title": "Pasta al ragù",
+      "detail": "Pasta 100 g + ragù con macinato magro 150 g e passata 150 g + parmigiano 10 g + olio 1 cucchiaino"
+    },
+    "5": {
+      "id": "gio",
+      "title": "Frittata",
+      "detail": "2 uova + 150 g albume + cotto sgrassato 60 g + pane 100 g + pomodori + 1 frutto"
+    },
+    "6": {
+      "id": "ven",
+      "title": "Piadina",
+      "detail": "1 piadina + bresaola 80 g + mozzarella light 100 g + pomodori + 1 frutto"
+    },
+    "7": {
+      "id": "sab",
+      "title": "Pasto libero",
+      "detail": "Pizza o quello che ti va, senza esagerare. Il resto della giornata normale."
+    },
+    "1": {
+      "id": "dom",
+      "title": "Maiale e patate",
+      "detail": "Lonza o fettine di maiale 200 g + patate 250 g + pomodori + pane 40 g + olio 1 cucchiaio"
+    }
+  },
+  "jollyDinners": [
+    {
+      "id": "j1",
+      "title": "Insalata di riso al tonno",
+      "detail": "Riso 90 g + 2 scatolette di tonno + pomodorini + mozzarella light 50 g + olio 1 cucchiaio"
+    },
+    {
+      "id": "j2",
+      "title": "Tagliata",
+      "detail": "Manzo 200 g + patate 250 g + pomodori + olio 1 cucchiaio"
+    },
+    {
+      "id": "j3",
+      "title": "Tacchino e riso",
+      "detail": "Petto di tacchino 200 g + riso basmati 90 g + pomodori + olio 1 cucchiaio"
+    }
+  ],
+  "preWorkout": "Pre-allenamento: banana + yogurt greco, 45-60 minuti prima.",
+  "postNightWorkout": "Dopo palestra post-turno: whey + banana, poi dormi."
+}
