@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "updated": "2026-10-15",
   "note": "Piano 2.300 kcal per la ricomposizione",
   "kcal": 2300,
@@ -168,8 +168,8 @@
     },
     "1": {
       "id": "dom",
-      "title": "Maiale e patate",
-      "detail": "Lonza o fettine di maiale 200 g + patate 250 g + pomodori + pane 40 g + olio 1 cucchiaio"
+      "title": "Manzo e patate",
+      "detail": "Fettine di manzo magro 200 g + patate 250 g + pomodori + pane 40 g + olio 1 cucchiaio"
     }
   },
   "jollyDinners": [
@@ -199,7 +199,7 @@
       "items": [
         "Petto di pollo 600 g",
         "Macinato di manzo magro 5% 400 g",
-        "Lonza di maiale 200 g",
+        "Fettine di manzo magro 200 g",
         "Manzo per tagliata 200 g",
         "Bresaola 100 g",
         "Prosciutto crudo 100 g"
