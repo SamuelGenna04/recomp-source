@@ -13,19 +13,19 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
-          "version": "1.1.7",
+          "version": "1.1.10",
           "date": "2026-10-15",
-          "localizedDescription": "Pranzi a scelta (casa, mensa, fuori), dieta che si aggiorna da sola, collegamento Liftoff per account Google.",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.1.7.ipa",
-          "size": 1962750,
+          "localizedDescription": "Collegamento Liftoff per account Google tramite token.",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.1.10.ipa",
+          "size": 1965640,
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.1.7",
+      "version": "1.1.10",
       "versionDate": "2026-10-15",
-      "versionDescription": "Pranzi a scelta (casa, mensa, fuori), dieta che si aggiorna da sola, collegamento Liftoff per account Google.",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.1.7.ipa",
-      "size": 1962750
+      "versionDescription": "Collegamento Liftoff per account Google tramite token.",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.1.10.ipa",
+      "size": 1965640
     }
   ],
   "news": []
