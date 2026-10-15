@@ -13,19 +13,19 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
-          "version": "1.3.17",
+          "version": "1.3.18",
           "date": "2026-10-15",
-          "localizedDescription": "Il coach AI segue le regole del piano (creatina, whey, pasto libero).",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.17.ipa",
-          "size": 2203749,
+          "localizedDescription": "Liftoff si sincronizza anche quando torni nell'app.",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.18.ipa",
+          "size": 2203665,
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.3.17",
+      "version": "1.3.18",
       "versionDate": "2026-10-15",
-      "versionDescription": "Il coach AI segue le regole del piano (creatina, whey, pasto libero).",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.17.ipa",
-      "size": 2203749
+      "versionDescription": "Liftoff si sincronizza anche quando torni nell'app.",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.18.ipa",
+      "size": 2203665
     }
   ],
   "news": []
