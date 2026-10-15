@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-10-15",
   "note": "Piano 2.300 kcal per la ricomposizione",
   "kcal": 2300,
@@ -190,5 +190,77 @@
     }
   ],
   "preWorkout": "Pre-allenamento: banana + yogurt greco, 45-60 minuti prima.",
-  "postNightWorkout": "Dopo palestra post-turno: whey + banana, poi dormi."
+  "postNightWorkout": "Dopo palestra post-turno: whey + banana, poi dormi.",
+  "shoppingNote": "Lista della settimana del 19 ottobre",
+  "shopping": [
+    {
+      "name": "Carne e salumi",
+      "icon": "fork.knife",
+      "items": [
+        "Petto di pollo 600 g",
+        "Macinato di manzo magro 5% 400 g",
+        "Lonza di maiale 200 g",
+        "Manzo per tagliata 200 g",
+        "Bresaola 100 g",
+        "Prosciutto crudo 100 g"
+      ]
+    },
+    {
+      "name": "Uova e tonno",
+      "icon": "frying.pan.fill",
+      "items": [
+        "Uova 6",
+        "Tonno al naturale 4 scatolette"
+      ]
+    },
+    {
+      "name": "Latticini",
+      "icon": "cup.and.saucer.fill",
+      "items": [
+        "Yogurt greco 0% 1,2 kg (+500 g se la whey non è arrivata)",
+        "Latte parzialmente scremato 1 litro",
+        "Mozzarella light 1",
+        "Fiocchi di latte 2",
+        "Parmigiano 1 pezzo piccolo"
+      ]
+    },
+    {
+      "name": "Carboidrati",
+      "icon": "takeoutbag.and.cup.and.straw.fill",
+      "items": [
+        "Pasta 500 g",
+        "Riso 500 g",
+        "Pane ~150 g",
+        "Gallette 1 pacco",
+        "Patate 1 kg",
+        "Avena 500 g",
+        "Cereali 1 scatola"
+      ]
+    },
+    {
+      "name": "Frutta e verdura",
+      "icon": "leaf.fill",
+      "items": [
+        "Banane 8",
+        "Mele 4",
+        "Kiwi 4",
+        "Arance o mandarini 1 kg",
+        "Frutti di bosco 1 vaschetta",
+        "Pomodori 1 kg",
+        "Pomodorini 500 g",
+        "Passata 1 bottiglia"
+      ]
+    },
+    {
+      "name": "Dispensa",
+      "icon": "cabinet.fill",
+      "items": [
+        "Olio EVO",
+        "Miele",
+        "Salsa di soia",
+        "Bibite zero",
+        "Creatina monoidrato 300 g (una volta sola)"
+      ]
+    }
+  ]
 }
