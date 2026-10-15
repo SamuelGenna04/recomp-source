@@ -13,19 +13,19 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
-          "version": "1.1.10",
+          "version": "1.1.11",
           "date": "2026-10-15",
-          "localizedDescription": "Collegamento Liftoff per account Google tramite token.",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.1.10.ipa",
-          "size": 1965640,
+          "localizedDescription": "Date in italiano.",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.1.11.ipa",
+          "size": 1965668,
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.1.10",
+      "version": "1.1.11",
       "versionDate": "2026-10-15",
-      "versionDescription": "Collegamento Liftoff per account Google tramite token.",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.1.10.ipa",
-      "size": 1965640
+      "versionDescription": "Date in italiano.",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.1.11.ipa",
+      "size": 1965668
     }
   ],
   "news": []
