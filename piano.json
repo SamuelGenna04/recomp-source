@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "updated": "2026-10-15",
   "note": "Piano 2.300 kcal per la ricomposizione",
   "kcal": 2300,
@@ -262,5 +262,12 @@
         "Creatina monoidrato 300 g (una volta sola)"
       ]
     }
+  ],
+  "coachRules": [
+    "Creatina: l'orario non conta, conta prenderla ogni giorno. Va bene a pranzo, prima o dopo la palestra: scegli l'orario più comodo e non saltarla. Niente fase di carico.",
+    "Whey: solo se non arrivi alle proteine con il cibo, ad esempio dopo l'allenamento o come spuntino.",
+    "Pasto libero: uno a settimana, a cena. Il resto della giornata resta normale.",
+    "Pesi di pasta, riso e carne sempre a crudo. Olio: 1 cucchiaio a pranzo e 1 a cena.",
+    "Non proporre pesce diverso dal tonno, legumi o verdure diverse dai pomodori."
   ]
 }

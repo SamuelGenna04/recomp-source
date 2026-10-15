@@ -13,19 +13,19 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
-          "version": "1.3.16",
+          "version": "1.3.17",
           "date": "2026-10-15",
-          "localizedDescription": "Tastiera: tasto Fine sopra la tastiera, si chiude anche toccando fuori o scorrendo.",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.16.ipa",
-          "size": 2202743,
+          "localizedDescription": "Il coach AI segue le regole del piano (creatina, whey, pasto libero).",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.17.ipa",
+          "size": 2203749,
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.3.16",
+      "version": "1.3.17",
       "versionDate": "2026-10-15",
-      "versionDescription": "Tastiera: tasto Fine sopra la tastiera, si chiude anche toccando fuori o scorrendo.",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.16.ipa",
-      "size": 2202743
+      "versionDescription": "Il coach AI segue le regole del piano (creatina, whey, pasto libero).",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.17.ipa",
+      "size": 2203749
     }
   ],
   "news": []
