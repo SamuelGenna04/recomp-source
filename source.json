@@ -13,19 +13,19 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
-          "version": "1.3.29",
+          "version": "1.3.30",
           "date": "2026-10-16",
-          "localizedDescription": "Pasti fuori schema: kcal e proteine stimate negli anelli.",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.29.ipa",
-          "size": 2339987,
+          "localizedDescription": "Foto dei pasti nella chat del coach: scatti o scegli una foto e il coach la segna",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.30.ipa",
+          "size": 2372499,
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.3.29",
+      "version": "1.3.30",
       "versionDate": "2026-10-16",
-      "versionDescription": "Pasti fuori schema: kcal e proteine stimate negli anelli.",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.29.ipa",
-      "size": 2339987
+      "versionDescription": "Foto dei pasti nella chat del coach: scatti o scegli una foto e il coach la segna",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.30.ipa",
+      "size": 2372499
     }
   ],
   "news": []
