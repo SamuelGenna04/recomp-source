@@ -13,19 +13,19 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
-          "version": "1.3.18",
-          "date": "2026-10-15",
-          "localizedDescription": "Liftoff si sincronizza anche quando torni nell'app.",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.18.ipa",
-          "size": 2203665,
+          "version": "1.3.20",
+          "date": "2026-10-16",
+          "localizedDescription": "Il menu PDF mostra il piatto preciso di ogni giorno.",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.20.ipa",
+          "size": 2206157,
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.3.18",
-      "versionDate": "2026-10-15",
-      "versionDescription": "Liftoff si sincronizza anche quando torni nell'app.",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.18.ipa",
-      "size": 2203665
+      "version": "1.3.20",
+      "versionDate": "2026-10-16",
+      "versionDescription": "Il menu PDF mostra il piatto preciso di ogni giorno.",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.20.ipa",
+      "size": 2206157
     }
   ],
   "news": []

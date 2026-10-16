@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "updated": "2026-10-16",
   "note": "Piano 2.300 kcal, versione economica: tutto cucinato fresco, ricette da 10-20 minuti",
   "kcal": 2300,
@@ -154,7 +154,7 @@
     "7": {
       "id": "sab",
       "title": "Pasto libero",
-      "detail": "Quello che ti va, senza esagerare. Uno nel weekend (venerdì, sabato o domenica): scegli tu il giorno"
+      "detail": "Quello che ti va, senza esagerare. Se il pasto libero lo fai un altro giorno: hamburger con 200 g di macinato + patate 400 g al microonde + pane 50 g, verso le 20 prima del turno"
     },
     "1": {
       "id": "dom",
@@ -249,5 +249,126 @@
     "Pesi di pasta, riso e carne sempre a crudo. Olio: 1 cucchiaio a pranzo e 1 a cena. 3 frutti al giorno in totale.",
     "Turno di notte: cena vera verso le 20, di notte solo pasti piccoli e proteici, niente dolci, niente caffè dopo le 3.",
     "Non proporre pesce diverso dal tonno, legumi o verdure diverse dai pomodori."
-  ]
+  ],
+  "weekMenu": {
+    "2": {
+      "colazione": {
+        "id": "E",
+        "title": "Al bar",
+        "detail": "Cappuccino + toast al cotto (o yogurt greco + 1 frutto se ce l'hai)"
+      },
+      "pranzo": {
+        "id": "M3",
+        "title": "Fuori a Milano",
+        "detail": "Poke (riso + doppio pollo o tonno), piadina con cotto o carne alla griglia + patate o pane"
+      },
+      "spuntino": {
+        "id": "S5",
+        "title": "Shake e frutto",
+        "detail": "Shake whey + 1 frutto (portati shaker e polvere)"
+      }
+    },
+    "3": {
+      "colazione": {
+        "id": "E",
+        "title": "Al bar",
+        "detail": "Cappuccino + toast al cotto (o yogurt greco + 1 frutto se ce l'hai)"
+      },
+      "pranzo": {
+        "id": "M3",
+        "title": "Fuori a Milano",
+        "detail": "Come lunedì, ma cambia locale o piatto"
+      },
+      "spuntino": {
+        "id": "S5",
+        "title": "Shake e frutto",
+        "detail": "Shake whey + 1 frutto"
+      }
+    },
+    "4": {
+      "colazione": {
+        "id": "C",
+        "title": "Latte e cereali",
+        "detail": "Latte 250 ml + cereali 50 g + yogurt greco 250 g + 1 mela"
+      },
+      "pranzo": {
+        "id": "M1",
+        "title": "Mensa",
+        "detail": "Proteina abbondante (meglio il bis di secondo) + 1 carboidrato + pomodori + 1 frutto"
+      },
+      "spuntino": {
+        "id": "S5",
+        "title": "Shake e banana",
+        "detail": "Shake whey + 1 banana"
+      }
+    },
+    "5": {
+      "colazione": {
+        "id": "A",
+        "title": "Yogurt e avena",
+        "detail": "Yogurt greco 0% 250 g + avena 40 g + 1 banana + 1 cucchiaino di miele"
+      },
+      "pranzo": {
+        "id": "P1",
+        "title": "Riso e pollo",
+        "detail": "Riso 100 g + pollo 200 g in padella + pomodori · 15 min"
+      },
+      "spuntino": {
+        "id": "S6",
+        "title": "Shake e panino",
+        "detail": "Shake whey + panino 50 g con cotto o fesa di tacchino 50 g + 1 mela"
+      }
+    },
+    "6": {
+      "colazione": {
+        "id": "A",
+        "title": "Yogurt e avena",
+        "detail": "Yogurt greco 0% 250 g + avena 40 g + 1 banana + 1 cucchiaino di miele"
+      },
+      "pranzo": {
+        "id": "P2",
+        "title": "Pasta al tonno",
+        "detail": "Pasta 100 g + 2 scatolette di tonno + passata · 15 min"
+      },
+      "spuntino": {
+        "id": "S8",
+        "title": "Shake e mela, poi notte",
+        "detail": "Shake whey + 1 mela prima di riposare. Durante la notte: yogurt greco 170 g, più tardi 1 scatoletta di tonno + 3 gallette"
+      }
+    },
+    "7": {
+      "colazione": {
+        "id": "F",
+        "title": "Dopo la palestra",
+        "detail": "Fine turno, palestra. Dopo: shake whey + 1 banana, poi dormi"
+      },
+      "pranzo": {
+        "id": "P1",
+        "title": "Riso e pollo (al risveglio)",
+        "detail": "Riso 100 g + pollo 200 g in padella + pomodori · 15 min"
+      },
+      "spuntino": {
+        "id": "S1",
+        "title": "Yogurt e banana, poi notte",
+        "detail": "Verso le 17: yogurt greco 170 g + banana. Durante la notte: fiocchi di latte + 3 gallette, più tardi 1 frutto"
+      }
+    },
+    "1": {
+      "colazione": {
+        "id": "F",
+        "title": "Dopo la palestra",
+        "detail": "Fine turno, palestra. Dopo: shake whey + 1 banana, poi dormi"
+      },
+      "pranzo": {
+        "id": "P2",
+        "title": "Pasta al tonno (al risveglio)",
+        "detail": "Pasta 100 g + 2 scatolette di tonno + passata + parmigiano 10 g · 15 min"
+      },
+      "spuntino": {
+        "id": "S7",
+        "title": "Yogurt, avena e whey",
+        "detail": "Yogurt greco 250 g + avena 40 g + banana + miele + 1 misurino di whey mescolato"
+      }
+    }
+  }
 }
