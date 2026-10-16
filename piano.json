@@ -1,7 +1,7 @@
 {
-  "version": 4,
-  "updated": "2026-10-15",
-  "note": "Piano 2.300 kcal per la ricomposizione",
+  "version": 5,
+  "updated": "2026-10-16",
+  "note": "Piano 2.300 kcal, versione economica: tutto cucinato fresco, ricette da 10-20 minuti",
   "kcal": 2300,
   "protein": 180,
   "fat": 70,
@@ -29,198 +29,179 @@
   "breakfastOptions": [
     {
       "id": "A",
-      "title": "Dolce con yogurt",
-      "detail": "Yogurt greco 0% 250 g + cereali o avena 40 g + 1 banana + 1 cucchiaino di miele"
-    },
-    {
-      "id": "B",
-      "title": "Salata",
-      "detail": "Pane 70 g + 2 uova + bresaola o crudo sgrassato 50 g + 1 frutto"
+      "title": "Yogurt e avena",
+      "detail": "Yogurt greco 0% 250 g + avena 40 g + 1 banana + 1 cucchiaino di miele"
     },
     {
       "id": "C",
       "title": "Latte e cereali",
-      "detail": "Latte p.s. 250 ml + cereali 50 g + yogurt greco 0% 150 g + 1 frutto"
+      "detail": "Latte p.s. 250 ml + cereali 50 g + yogurt greco 0% 250 g + 1 mela"
     },
     {
-      "id": "D",
-      "title": "Veloce",
-      "detail": "Yogurt greco 0% 250 g + 1 frutto"
+      "id": "E",
+      "title": "Al bar",
+      "detail": "Cappuccino + toast al cotto (oppure yogurt greco + 1 frutto se ce l'hai)"
+    },
+    {
+      "id": "F",
+      "title": "Dopo la palestra di notte",
+      "detail": "Shake whey + 1 banana, poi dormi"
     }
   ],
   "lunchOptions": [
     {
       "id": "P1",
       "title": "Riso e pollo",
-      "detail": "Riso basmati 90 g + petto di pollo 200 g a cubetti + pomodorini + olio 1 cucchiaio + 1 frutto"
+      "detail": "Riso 100 g + petto di pollo 200 g in padella + pomodori + olio 1 cucchiaio · 15 min"
     },
     {
       "id": "P2",
       "title": "Pasta al tonno",
-      "detail": "Pasta 100 g + 2 scatolette di tonno al naturale + passata 100 g + olio 1 cucchiaino + 1 frutto"
+      "detail": "Pasta 100 g + 2 scatolette di tonno al naturale + passata + parmigiano 10 g · 15 min"
     },
     {
       "id": "P3",
       "title": "Pasta al ragù",
-      "detail": "Pasta 100 g + ragù con macinato magro 150 g e passata + parmigiano 10 g + 1 frutto"
-    },
-    {
-      "id": "P4",
-      "title": "Poke fatto in casa",
-      "detail": "Riso 90 g + pollo 200 g (o 2 scatolette di tonno) + pomodorini + salsa di soia + 1 frutto"
-    },
-    {
-      "id": "P5",
-      "title": "Panino al tacchino",
-      "detail": "Pane 120 g + fesa di tacchino 120 g + mozzarella light 60 g + pomodori + 1 frutto"
+      "detail": "Pasta 100 g + ragù con macinato magro 150 g e passata + parmigiano 10 g · 20 min"
     },
     {
       "id": "P6",
-      "title": "Patate e uova",
-      "detail": "Patate 300 g al forno + 2 uova + 150 g di albume + parmigiano 10 g + pomodori + 1 frutto"
-    },
-    {
-      "id": "P7",
-      "title": "Tagliata e patate",
-      "detail": "Manzo 200 g + patate 300 g + pomodori + olio 1 cucchiaio"
+      "title": "Frittata",
+      "detail": "Frittata di 3 uova + 150 g di albume + pane 80 g + pomodori · 10 min"
     },
     {
       "id": "M1",
       "title": "Mensa",
-      "detail": "Secondo di carne, uova o tonno abbondante + un solo carboidrato (pasta, riso, patate o pane) + pomodori + frutto"
+      "detail": "Proteina abbondante (meglio il bis di secondo) + un solo carboidrato + pomodori + 1 frutto"
     },
     {
       "id": "M2",
       "title": "Poke al locale",
-      "detail": "Base riso normale + doppia proteina (pollo o tonno) + pomodorini + soia. No maionese, spicy mayo, tempura"
+      "detail": "Riso + doppio pollo o tonno + pomodorini + soia. No maionese, spicy mayo, tempura"
     },
     {
       "id": "M3",
       "title": "Fuori: piadineria o ristorante",
-      "detail": "Piadina con bresaola o cotto + pomodoro, niente salse. Oppure carne alla griglia + patate al forno o pane"
+      "detail": "Piadina con cotto + pomodoro, niente salse. Oppure carne alla griglia + patate al forno o pane"
+    },
+    {
+      "id": "M4",
+      "title": "Hamburgeria o bar",
+      "detail": "Burger semplice + patatine piccole, salse a parte. Al bar: toast o panino con cotto o pollo"
     }
   ],
   "lunchRules": [
     "Proteina sempre, abbondante (palmo e mezzo): carne, uova o tonno",
     "Un solo carboidrato: pasta o riso oppure patate oppure pane",
-    "Pomodori se ci sono",
-    "Un frutto come dessert",
-    "Da limitare: fritti, panna, formaggio fuso, doppio primo, dolci"
+    "Pomodori se ci sono, e un frutto",
+    "Da limitare: fritti, panna, formaggi fusi, pane del cestino se hai già pasta o patate",
+    "Primo + secondo + dolce tutti insieme: scegline due. Bibite: prendi la zero"
   ],
-  "pokeRule": "Poke: base riso normale, doppia proteina (pollo o tonno), pomodorini, soia. No maionese, spicy mayo, tempura.",
+  "pokeRule": "Poke: riso + doppio pollo o tonno, pomodorini, soia. No maionese, spicy mayo, tempura.",
   "snackOptions": [
     {
-      "id": "S1",
-      "title": "Yogurt e gallette",
-      "detail": "Yogurt greco 0% 170 g + 1 frutto + 2 gallette"
-    },
-    {
-      "id": "S2",
-      "title": "Panino bresaola",
-      "detail": "Pane 50 g + bresaola 50 g + 1 frutto"
-    },
-    {
-      "id": "S3",
-      "title": "Fiocchi di latte",
-      "detail": "Fiocchi di latte 200 g + 1 frutto"
-    },
-    {
-      "id": "S4",
-      "title": "Tonno e gallette",
-      "detail": "1 scatoletta di tonno al naturale + 3 gallette + 1 frutto"
-    },
-    {
       "id": "S5",
-      "title": "Shake whey",
-      "detail": "1 shake (30 g) con acqua o latte + 1 banana"
+      "title": "Shake e frutto",
+      "detail": "Shake whey (30 g) con acqua o latte + 1 banana o 1 mela"
+    },
+    {
+      "id": "S6",
+      "title": "Shake e panino",
+      "detail": "Shake whey + panino 50 g con cotto o fesa di tacchino 50 g + 1 mela"
+    },
+    {
+      "id": "S1",
+      "title": "Yogurt e banana",
+      "detail": "Yogurt greco 0% 170 g + 1 banana"
+    },
+    {
+      "id": "S7",
+      "title": "Yogurt, avena e whey",
+      "detail": "Yogurt greco 0% 250 g + avena 40 g + banana + miele + 1 misurino di whey mescolato"
+    },
+    {
+      "id": "S8",
+      "title": "Durante il turno di notte",
+      "detail": "Yogurt greco 170 g, più tardi 1 scatoletta di tonno + 3 gallette (oppure fiocchi di latte + 3 gallette, poi 1 frutto)"
     }
   ],
   "dinnersByWeekday": {
     "2": {
       "id": "lun",
-      "title": "Pollo e riso",
-      "detail": "Petto di pollo 200 g + riso basmati 90 g + passata o pomodori + olio 1 cucchiaio"
+      "title": "Carne alla griglia",
+      "detail": "A casa o fuori: carne alla griglia + patate o pane + pomodori"
     },
     "3": {
       "id": "mar",
-      "title": "Hamburger e patate",
-      "detail": "Hamburger di manzo magro 200 g + patate al forno 300 g + pomodori + olio 1 cucchiaio + 1 frutto"
+      "title": "Carne alla griglia",
+      "detail": "A casa o fuori: carne alla griglia + patate o pane + pomodori (cambia carne rispetto a lunedì)"
     },
     "4": {
       "id": "mer",
       "title": "Pasta al ragù",
-      "detail": "Pasta 100 g + ragù con macinato magro 150 g e passata 150 g + parmigiano 10 g + olio 1 cucchiaino"
+      "detail": "Pasta 100 g + ragù con macinato magro 150 g e passata + parmigiano 10 g · 20 min"
     },
     "5": {
       "id": "gio",
       "title": "Frittata",
-      "detail": "2 uova + 150 g albume + cotto sgrassato 60 g + pane 100 g + pomodori + 1 frutto"
+      "detail": "Frittata di 3 uova + 150 g di albume + pane 80 g + pomodori · 10 min"
     },
     "6": {
       "id": "ven",
-      "title": "Piadina",
-      "detail": "1 piadina + bresaola 80 g + mozzarella light 100 g + pomodori + 1 frutto"
+      "title": "Pollo e patate",
+      "detail": "Cena presto (19-20) se fai la notte: pollo 200 g in padella + patate 400 g al microonde + pane 50 g · 15 min"
     },
     "7": {
       "id": "sab",
       "title": "Pasto libero",
-      "detail": "Pizza o quello che ti va, senza esagerare. Il resto della giornata normale."
+      "detail": "Quello che ti va, senza esagerare. Uno nel weekend (venerdì, sabato o domenica): scegli tu il giorno"
     },
     "1": {
       "id": "dom",
-      "title": "Manzo e patate",
-      "detail": "Fettine di manzo magro 200 g + patate 250 g + pomodori + pane 40 g + olio 1 cucchiaio"
+      "title": "Frittata",
+      "detail": "Frittata di 3 uova + 150 g di albume + pane 100 g + pomodori · 10 min"
     }
   },
   "jollyDinners": [
     {
-      "id": "j1",
-      "title": "Insalata di riso al tonno",
-      "detail": "Riso 90 g + 2 scatolette di tonno + pomodorini + mozzarella light 50 g + olio 1 cucchiaio"
+      "id": "j4",
+      "title": "Hamburger e patate",
+      "detail": "Hamburger con 200 g di macinato magro + patate 400 g al microonde + pane 50 g · 15 min (cena del sabato prima della notte)"
     },
     {
-      "id": "j2",
-      "title": "Tagliata",
-      "detail": "Manzo 200 g + patate 250 g + pomodori + olio 1 cucchiaio"
+      "id": "j5",
+      "title": "Riso e pollo",
+      "detail": "Riso 100 g + pollo 200 g in padella + pomodori · 15 min"
     },
     {
-      "id": "j3",
-      "title": "Tacchino e riso",
-      "detail": "Petto di tacchino 200 g + riso basmati 90 g + pomodori + olio 1 cucchiaio"
+      "id": "j6",
+      "title": "Pasta al tonno",
+      "detail": "Pasta 100 g + 2 scatolette di tonno + passata + parmigiano 10 g · 15 min"
     }
   ],
-  "preWorkout": "Pre-allenamento: banana + yogurt greco, 45-60 minuti prima.",
-  "postNightWorkout": "Dopo palestra post-turno: whey + banana, poi dormi.",
-  "shoppingNote": "Lista della settimana del 19 ottobre",
+  "preWorkout": "Pre-allenamento: banana + yogurt greco, 45-60 minuti prima. Dopo una notte: vai diretto, poi shake.",
+  "postNightWorkout": "Dopo palestra post-turno: shake whey + banana, poi dormi. Allenamento più corto, salta il tapis roulant se sei cotto.",
+  "shoppingNote": "Lista della settimana del 19 ottobre (versione economica)",
   "shopping": [
     {
-      "name": "Carne e salumi",
+      "name": "Carne, uova, tonno",
       "icon": "fork.knife",
       "items": [
-        "Petto di pollo 600 g",
-        "Macinato di manzo magro 5% 400 g",
-        "Fettine di manzo magro 200 g",
-        "Manzo per tagliata 200 g",
-        "Bresaola 100 g",
-        "Prosciutto crudo 100 g"
-      ]
-    },
-    {
-      "name": "Uova e tonno",
-      "icon": "frying.pan.fill",
-      "items": [
+        "Petto di pollo 600 g (compralo mar/mer)",
+        "Macinato di manzo magro 350 g (compralo mar/mer)",
+        "Prosciutto cotto o fesa di tacchino 100 g",
         "Uova 6",
-        "Tonno al naturale 4 scatolette"
+        "Albume in brick 500 g",
+        "Tonno al naturale 6 scatolette"
       ]
     },
     {
       "name": "Latticini",
       "icon": "cup.and.saucer.fill",
       "items": [
-        "Yogurt greco 0% 1,2 kg (+500 g se la whey non è arrivata)",
+        "Yogurt greco 0% 1,4 kg (va bene la marca del supermercato)",
         "Latte parzialmente scremato 1 litro",
-        "Mozzarella light 1",
-        "Fiocchi di latte 2",
+        "Fiocchi di latte 1",
         "Parmigiano 1 pezzo piccolo"
       ]
     },
@@ -230,7 +211,7 @@
       "items": [
         "Pasta 500 g",
         "Riso 500 g",
-        "Pane ~150 g",
+        "Pane ~350 g",
         "Gallette 1 pacco",
         "Patate 1 kg",
         "Avena 500 g",
@@ -241,14 +222,11 @@
       "name": "Frutta e verdura",
       "icon": "leaf.fill",
       "items": [
-        "Banane 8",
-        "Mele 4",
-        "Kiwi 4",
+        "Banane 10",
+        "Mele 6",
         "Arance o mandarini 1 kg",
-        "Frutti di bosco 1 vaschetta",
         "Pomodori 1 kg",
-        "Pomodorini 500 g",
-        "Passata 1 bottiglia"
+        "Passata 2 bottiglie"
       ]
     },
     {
@@ -257,17 +235,19 @@
       "items": [
         "Olio EVO",
         "Miele",
-        "Salsa di soia",
-        "Bibite zero",
-        "Creatina monoidrato 300 g (una volta sola)"
+        "Spezie",
+        "Bibite zero"
       ]
     }
   ],
   "coachRules": [
     "Creatina: l'orario non conta, conta prenderla ogni giorno. Va bene a pranzo, prima o dopo la palestra: scegli l'orario più comodo e non saltarla. Niente fase di carico.",
-    "Whey: solo se non arrivi alle proteine con il cibo, ad esempio dopo l'allenamento o come spuntino.",
-    "Pasto libero: uno a settimana, a cena. Il resto della giornata resta normale.",
-    "Pesi di pasta, riso e carne sempre a crudo. Olio: 1 cucchiaio a pranzo e 1 a cena.",
+    "Whey: è la proteina più economica del piano, usala negli spuntini e dopo l'allenamento.",
+    "Pasto libero: uno nel weekend (venerdì, sabato o domenica), lo sceglie Samuel. Prende il posto di un pranzo o di una cena; il resto della giornata resta normale.",
+    "Tutto si cucina fresco al momento, ricette da 10-20 minuti: niente freezer né cibo preparato in anticipo.",
+    "Piano economico: niente bresaola, crudo, manzo da tagliata o frutti di bosco. Proteine da pollo, macinato, uova e albume, tonno, whey.",
+    "Pesi di pasta, riso e carne sempre a crudo. Olio: 1 cucchiaio a pranzo e 1 a cena. 3 frutti al giorno in totale.",
+    "Turno di notte: cena vera verso le 20, di notte solo pasti piccoli e proteici, niente dolci, niente caffè dopo le 3.",
     "Non proporre pesce diverso dal tonno, legumi o verdure diverse dai pomodori."
   ]
 }
