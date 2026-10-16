@@ -13,19 +13,19 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
-          "version": "1.3.27",
+          "version": "1.3.28",
           "date": "2026-10-16",
-          "localizedDescription": "Coach in chat: una conversazione al giorno che ricorda tutto e aggiorna i pasti.",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.27.ipa",
-          "size": 2319047,
+          "localizedDescription": "Chat del coach: la casella resta sopra la tastiera.",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.28.ipa",
+          "size": 2319350,
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.3.27",
+      "version": "1.3.28",
       "versionDate": "2026-10-16",
-      "versionDescription": "Coach in chat: una conversazione al giorno che ricorda tutto e aggiorna i pasti.",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.27.ipa",
-      "size": 2319047
+      "versionDescription": "Chat del coach: la casella resta sopra la tastiera.",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.28.ipa",
+      "size": 2319350
     }
   ],
   "news": []
