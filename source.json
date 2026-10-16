@@ -13,19 +13,19 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
-          "version": "1.3.20",
+          "version": "1.3.22",
           "date": "2026-10-16",
-          "localizedDescription": "Il menu PDF mostra il piatto preciso di ogni giorno.",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.20.ipa",
-          "size": 2206157,
+          "localizedDescription": "Coach AI con ChatGPT: aggiungi la tua chiave OpenAI nelle Impostazioni.",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.22.ipa",
+          "size": 2228066,
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.3.20",
+      "version": "1.3.22",
       "versionDate": "2026-10-16",
-      "versionDescription": "Il menu PDF mostra il piatto preciso di ogni giorno.",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.20.ipa",
-      "size": 2206157
+      "versionDescription": "Coach AI con ChatGPT: aggiungi la tua chiave OpenAI nelle Impostazioni.",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.22.ipa",
+      "size": 2228066
     }
   ],
   "news": []
