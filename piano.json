@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "updated": "2026-10-16",
   "note": "Piano 2.300 kcal, versione economica: tutto cucinato fresco, ricette da 10-20 minuti",
   "kcal": 2300,
@@ -41,6 +41,11 @@
       "id": "E",
       "title": "Al bar",
       "detail": "Cappuccino + toast al cotto (oppure yogurt greco + 1 frutto se ce l'hai)"
+    },
+    {
+      "id": "G",
+      "title": "Cappuccino e biscotti",
+      "detail": "Cappuccino + 4 biscotti integrali (30-35 g) + shake whey se ce l'hai. Senza whey: più proteine a pranzo"
     },
     {
       "id": "F",
