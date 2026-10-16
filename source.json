@@ -13,19 +13,19 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
-          "version": "1.3.22",
+          "version": "1.3.26",
           "date": "2026-10-16",
-          "localizedDescription": "Coach AI con ChatGPT: aggiungi la tua chiave OpenAI nelle Impostazioni.",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.22.ipa",
-          "size": 2228066,
+          "localizedDescription": "Pasti fuori schema con Altro e Chiedi al coach sotto ogni pasto.",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.26.ipa",
+          "size": 2279276,
           "minOSVersion": "17.0"
         }
       ],
-      "version": "1.3.22",
+      "version": "1.3.26",
       "versionDate": "2026-10-16",
-      "versionDescription": "Coach AI con ChatGPT: aggiungi la tua chiave OpenAI nelle Impostazioni.",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.22.ipa",
-      "size": 2228066
+      "versionDescription": "Pasti fuori schema con Altro e Chiedi al coach sotto ogni pasto.",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.26.ipa",
+      "size": 2279276
     }
   ],
   "news": []
