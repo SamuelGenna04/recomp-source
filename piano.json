@@ -1,29 +1,29 @@
 {
-  "version": 11,
-  "updated": "2026-10-16",
+  "version": 12,
+  "updated": "2026-10-19",
   "note": "Piano 2.300 kcal, versione economica: tutto cucinato fresco, ricette da 10-20 minuti",
   "kcal": 2300,
   "protein": 180,
-  "fat": 70,
-  "carbs": 235,
+  "fat": 55,
+  "carbs": 265,
   "waterLiters": 3.0,
   "creatineGrams": 5,
   "slots": {
     "colazione": {
       "kcal": 450,
-      "protein": 30
+      "protein": 35
     },
     "pranzo": {
-      "kcal": 700,
-      "protein": 45
+      "kcal": 750,
+      "protein": 50
     },
     "spuntino": {
-      "kcal": 300,
-      "protein": 25
+      "kcal": 400,
+      "protein": 40
     },
     "cena": {
-      "kcal": 680,
-      "protein": 50
+      "kcal": 700,
+      "protein": 55
     }
   },
   "breakfastOptions": [
@@ -88,7 +88,7 @@
     {
       "id": "E",
       "title": "Al bar",
-      "detail": "Cappuccino + toast con 2 fette di pancarré (50 g) e cotto 40 g (oppure yogurt greco 0% 250 g + 1 frutto)",
+      "detail": "Cappuccino + toast con 2 fette di pancarré (50 g) e cotto 40 g",
       "kcal": 335,
       "protein": 19,
       "ingredients": [
@@ -106,8 +106,8 @@
     },
     {
       "id": "G",
-      "title": "Cappuccino e biscotti",
-      "detail": "Cappuccino + 4 biscotti integrali (30-35 g) + shake whey 30 g in 300 ml d'acqua se ce l'hai. Senza whey: più proteine a pranzo",
+      "title": "Cappuccino, biscotti e shake",
+      "detail": "Cappuccino + 4 biscotti integrali (33 g) + shake whey 30 g in 300 ml d'acqua",
       "kcal": 355,
       "protein": 31,
       "ingredients": [
@@ -126,6 +126,25 @@
       ],
       "carbs": 31,
       "fat": 11
+    },
+    {
+      "id": "G2",
+      "title": "Cappuccino e biscotti (senza whey)",
+      "detail": "Cappuccino + 4 biscotti integrali (33 g). Poche proteine: recuperale a pranzo",
+      "ingredients": [
+        {
+          "item": "cappuccino",
+          "qty": 1
+        },
+        {
+          "item": "biscotti",
+          "qty": 33
+        }
+      ],
+      "kcal": 240,
+      "protein": 8,
+      "carbs": 29,
+      "fat": 9
     },
     {
       "id": "F",
@@ -181,9 +200,9 @@
     {
       "id": "P2",
       "title": "Pasta al tonno",
-      "detail": "Pasta 100 g + 2 scatolette di tonno al naturale (160 g sgocciolato) + passata 100 g + parmigiano 10 g + olio 10 g · 15 min",
-      "kcal": 685,
-      "protein": 56,
+      "detail": "Pasta 100 g + 3 scatolette di tonno al naturale da 80 g (circa 160 g sgocciolato) + passata 100 g + parmigiano 10 g + olio 10 g · 15 min",
+      "kcal": 680,
+      "protein": 54,
       "ingredients": [
         {
           "item": "pasta",
@@ -191,7 +210,7 @@
         },
         {
           "item": "tonno",
-          "qty": 2
+          "qty": 3
         },
         {
           "item": "passata",
@@ -335,8 +354,8 @@
     },
     {
       "id": "M3",
-      "title": "Fuori: piadineria o ristorante",
-      "detail": "Piadina (1, circa 100 g) con cotto 80 g + pomodoro, niente salse. Oppure carne alla griglia circa 200 g + patate al forno 300 g o pane 80 g",
+      "title": "Piadineria",
+      "detail": "Piadina (1, circa 100 g) con cotto 80 g + pomodoro, niente salse",
       "kcal": 450,
       "protein": 24,
       "ingredients": [
@@ -359,9 +378,28 @@
       "fat": 16
     },
     {
+      "id": "M3b",
+      "title": "Ristorante: carne alla griglia",
+      "detail": "Carne alla griglia circa 200 g (pollo, tacchino o manzo; peso cotto) + patate al forno 300 g. Niente salse",
+      "ingredients": [
+        {
+          "item": "carne_cotta",
+          "qty": 200
+        },
+        {
+          "item": "patate_forno",
+          "qty": 300
+        }
+      ],
+      "kcal": 790,
+      "protein": 64,
+      "carbs": 66,
+      "fat": 30
+    },
+    {
       "id": "M4",
-      "title": "Hamburgeria o bar",
-      "detail": "Burger semplice + patatine piccole (circa 100 g), salse a parte. Al bar: toast o panino (pane circa 80 g) con cotto o pollo",
+      "title": "Hamburgeria",
+      "detail": "Burger semplice + patatine piccole (circa 100 g), salse a parte",
       "kcal": 810,
       "protein": 33,
       "ingredients": [
@@ -376,6 +414,48 @@
       ],
       "carbs": 76,
       "fat": 41
+    },
+    {
+      "id": "M4b",
+      "title": "Al bar: toast o panino",
+      "detail": "Toast o panino (pane circa 80 g) con cotto o pollo. Poche proteine: aggiungi uno yogurt o uno shake allo spuntino",
+      "ingredients": [
+        {
+          "item": "panino_bar",
+          "qty": 1
+        }
+      ],
+      "kcal": 330,
+      "protein": 19,
+      "carbs": 45,
+      "fat": 8
+    },
+    {
+      "id": "P2-ven",
+      "title": "Pasta al tonno (senza parmigiano)",
+      "detail": "Pasta 100 g + 3 scatolette di tonno al naturale da 80 g (circa 160 g sgocciolato) + passata 100 g + olio 10 g · 15 min",
+      "kcal": 640,
+      "protein": 51,
+      "ingredients": [
+        {
+          "item": "pasta",
+          "qty": 100
+        },
+        {
+          "item": "tonno",
+          "qty": 3
+        },
+        {
+          "item": "passata",
+          "qty": 100
+        },
+        {
+          "item": "olio",
+          "qty": 10
+        }
+      ],
+      "carbs": 77,
+      "fat": 13
     }
   ],
   "lunchRules": [
@@ -497,9 +577,9 @@
     {
       "id": "S8",
       "title": "Durante il turno di notte",
-      "detail": "Yogurt greco 0% 170 g, più tardi 1 scatoletta di tonno (80 g sgocciolato) + 3 gallette (25 g) (oppure fiocchi di latte 200 g + 3 gallette, poi 1 frutto)",
-      "kcal": 270,
-      "protein": 38,
+      "detail": "Yogurt greco 0% 170 g, più tardi 2 scatolette di tonno da 80 g (circa 105 g sgocciolato) + 3 gallette (25 g)",
+      "kcal": 295,
+      "protein": 44,
       "ingredients": [
         {
           "item": "yogurt",
@@ -507,7 +587,7 @@
         },
         {
           "item": "tonno",
-          "qty": 1
+          "qty": 2
         },
         {
           "item": "gallette",
@@ -516,13 +596,109 @@
       ],
       "carbs": 26,
       "fat": 2
+    },
+    {
+      "id": "S8b",
+      "title": "Notte: fiocchi e gallette",
+      "detail": "Fiocchi di latte 200 g + 3 gallette (25 g), più tardi 1 frutto (150 g)",
+      "ingredients": [
+        {
+          "item": "fiocchi",
+          "qty": 200
+        },
+        {
+          "item": "gallette",
+          "qty": 3
+        },
+        {
+          "item": "mela",
+          "qty": 1,
+          "alt": [
+            "arancia",
+            "banana"
+          ]
+        }
+      ],
+      "kcal": 370,
+      "protein": 25,
+      "carbs": 46,
+      "fat": 10
+    },
+    {
+      "id": "S8-ven",
+      "title": "Shake e mela, poi notte",
+      "detail": "Shake whey 30 g in 300 ml d'acqua + 1 mela (150 g) prima di riposare. Durante la notte: yogurt greco 0% 170 g, più tardi 2 scatolette di tonno da 80 g (circa 105 g sgocciolato) + 3 gallette (25 g)",
+      "kcal": 490,
+      "protein": 67,
+      "ingredients": [
+        {
+          "item": "whey",
+          "qty": 30
+        },
+        {
+          "item": "mela",
+          "qty": 1,
+          "alt": [
+            "arancia",
+            "banana"
+          ]
+        },
+        {
+          "item": "yogurt",
+          "qty": 170
+        },
+        {
+          "item": "tonno",
+          "qty": 2
+        },
+        {
+          "item": "gallette",
+          "qty": 3
+        }
+      ],
+      "carbs": 47,
+      "fat": 4
+    },
+    {
+      "id": "S1-sab",
+      "title": "Yogurt e banana, poi notte",
+      "detail": "Verso le 17: yogurt greco 0% 170 g + 1 banana (120 g). Durante la notte: fiocchi di latte 200 g + 3 gallette (25 g), più tardi 1 frutto (150 g)",
+      "kcal": 570,
+      "protein": 43,
+      "ingredients": [
+        {
+          "item": "yogurt",
+          "qty": 170
+        },
+        {
+          "item": "banana",
+          "qty": 1
+        },
+        {
+          "item": "fiocchi",
+          "qty": 200
+        },
+        {
+          "item": "gallette",
+          "qty": 3
+        },
+        {
+          "item": "mela",
+          "qty": 1,
+          "alt": [
+            "arancia"
+          ]
+        }
+      ],
+      "carbs": 80,
+      "fat": 11
     }
   ],
   "dinnersByWeekday": {
     "2": {
       "id": "lun",
       "title": "Carne alla griglia",
-      "detail": "Carne alla griglia 200 g (pollo, tacchino o hamburger) + patate 400 g al microonde oppure pane 80 g + pomodori 200 g + olio 10 g",
+      "detail": "Carne alla griglia 200 g (pollo, tacchino o hamburger) + patate 400 g al microonde + pomodori 200 g + olio 10 g",
       "kcal": 655,
       "protein": 56,
       "ingredients": [
@@ -552,7 +728,7 @@
     "3": {
       "id": "mar",
       "title": "Carne alla griglia",
-      "detail": "Carne alla griglia 200 g, diversa da lunedì + patate 400 g al microonde oppure pane 80 g + pomodori 200 g + olio 10 g",
+      "detail": "Carne alla griglia 200 g, diversa da lunedì + patate 400 g al microonde + pomodori 200 g + olio 10 g",
       "kcal": 655,
       "protein": 56,
       "ingredients": [
@@ -671,7 +847,7 @@
     "7": {
       "id": "sab",
       "title": "Pasto libero",
-      "detail": "Quello che ti va, senza esagerare. Se il pasto libero lo fai un altro giorno: hamburger 200 g di macinato magro + patate 400 g al microonde + pane 50 g, verso le 20 prima del turno"
+      "detail": "Quello che ti va, senza esagerare. Se il pasto libero lo fai un altro giorno, qui c'è l'hamburger: 200 g di macinato magro + patate 400 g al microonde + pane 50 g + olio 10 g, verso le 20 prima del turno"
     },
     "1": {
       "id": "dom",
@@ -709,8 +885,8 @@
     {
       "id": "j4",
       "title": "Hamburger e patate",
-      "detail": "Hamburger con 200 g di macinato magro + patate 400 g al microonde + pane 50 g · 15 min (cena del sabato prima della notte)",
-      "kcal": 715,
+      "detail": "Hamburger con 200 g di macinato magro + patate 400 g al microonde + pane 50 g + olio 10 g · 15 min (cena del sabato prima della notte)",
+      "kcal": 805,
       "protein": 54,
       "ingredients": [
         {
@@ -724,10 +900,14 @@
         {
           "item": "pane",
           "qty": 50
+        },
+        {
+          "item": "olio",
+          "qty": 10
         }
       ],
       "carbs": 96,
-      "fat": 12
+      "fat": 22
     },
     {
       "id": "j5",
@@ -759,9 +939,9 @@
     {
       "id": "j6",
       "title": "Pasta al tonno",
-      "detail": "Pasta 100 g + 2 scatolette di tonno (160 g sgocciolato) + passata 100 g + parmigiano 10 g + olio 10 g · 15 min",
-      "kcal": 685,
-      "protein": 56,
+      "detail": "Pasta 100 g + 3 scatolette di tonno al naturale da 80 g (circa 160 g sgocciolato) + passata 100 g + parmigiano 10 g + olio 10 g · 15 min",
+      "kcal": 680,
+      "protein": 54,
       "ingredients": [
         {
           "item": "pasta",
@@ -769,7 +949,7 @@
         },
         {
           "item": "tonno",
-          "qty": 2
+          "qty": 3
         },
         {
           "item": "passata",
@@ -796,12 +976,13 @@
       "name": "Carne, uova, tonno",
       "icon": "fork.knife",
       "items": [
-        "Petto di pollo 600 g (compralo mar/mer)",
+        "Pollo o tacchino per la griglia 400 g (compralo lunedì: cene di lun e mar)",
+        "Petto di pollo 600 g (compralo giovedì: pranzi di gio e sab, cena di ven)",
         "Macinato di manzo magro 350 g (compralo mar/mer)",
         "Prosciutto cotto o fesa di tacchino 100 g",
         "Uova 6",
         "Albume in brick 500 g",
-        "Tonno al naturale 6 scatolette"
+        "Tonno al naturale 8 scatolette da 80 g"
       ]
     },
     {
@@ -810,8 +991,8 @@
       "items": [
         "Yogurt greco 0% 1,4 kg (va bene la marca del supermercato)",
         "Latte parzialmente scremato 1 litro",
-        "Fiocchi di latte 1",
-        "Parmigiano 1 pezzo piccolo"
+        "Fiocchi di latte 200 g",
+        "Parmigiano 50 g"
       ]
     },
     {
@@ -820,11 +1001,11 @@
       "items": [
         "Pasta 500 g",
         "Riso 500 g",
-        "Pane ~350 g",
-        "Gallette 1 pacco",
-        "Patate 1 kg",
+        "Pane 350 g",
+        "Gallette di riso 1 pacco (circa 16)",
+        "Patate 1,2 kg",
         "Avena 500 g",
-        "Cereali 1 scatola"
+        "Cereali 375 g (1 scatola)"
       ]
     },
     {
@@ -834,17 +1015,17 @@
         "Banane 10",
         "Mele 6",
         "Arance o mandarini 1 kg",
-        "Pomodori 1 kg",
-        "Passata 2 bottiglie"
+        "Pomodori 1,2 kg",
+        "Passata di pomodoro 700 g (1 bottiglia)"
       ]
     },
     {
       "name": "Dispensa",
       "icon": "cabinet.fill",
       "items": [
-        "Olio EVO",
-        "Miele",
-        "Spezie",
+        "Proteine whey: servono 240 g a settimana, controlla la scorta",
+        "Olio EVO: circa 100 g a settimana",
+        "Miele (se è finito)",
         "Bibite zero"
       ]
     }
@@ -855,16 +1036,19 @@
     "Pasto libero: uno nel weekend (venerdì, sabato o domenica), lo sceglie Samuel. Prende il posto di un pranzo o di una cena; il resto della giornata resta normale.",
     "Tutto si cucina fresco al momento, ricette da 10-20 minuti: niente freezer né cibo preparato in anticipo.",
     "Piano economico: niente bresaola, crudo, manzo da tagliata o frutti di bosco. Proteine da pollo, macinato, uova e albume, tonno, whey.",
-    "Pesi di pasta, riso e carne sempre a crudo. Olio: 1 cucchiaio a pranzo e 1 a cena. 3 frutti al giorno in totale.",
+    "Pesi di pasta, riso e carne sempre a crudo. Olio: 10 g (1 cucchiaio) a pranzo e 10 g a cena. 3 frutti al giorno in totale.",
     "Turno di notte: cena vera verso le 20, di notte solo pasti piccoli e proteici, niente dolci, niente caffè dopo le 3.",
-    "Non proporre pesce diverso dal tonno, legumi o verdure diverse dai pomodori."
+    "Non proporre pesce diverso dal tonno, legumi o verdure diverse dai pomodori.",
+    "Niente lonza di maiale: a Samuel non piace.",
+    "Se peso e vita sono fermi 2 settimane: togli circa 150 kcal (40 g di pasta o riso a crudo in meno a cena) oppure aggiungi 2000 passi al giorno. Se scende più di 1 kg a settimana: aggiungi uno spuntino.",
+    "Tonno: le scatolette da 80 g danno circa 52 g sgocciolati (12 g di proteine ciascuna)."
   ],
   "weekMenu": {
     "2": {
       "colazione": {
         "id": "E",
         "title": "Al bar",
-        "detail": "Cappuccino + toast con 2 fette di pancarré (50 g) e cotto 40 g (o yogurt greco 0% 250 g + 1 frutto)",
+        "detail": "Cappuccino + toast con 2 fette di pancarré (50 g) e cotto 40 g",
         "kcal": 335,
         "protein": 19,
         "ingredients": [
@@ -881,11 +1065,9 @@
         "fat": 14
       },
       "pranzo": {
-        "id": "M3",
-        "title": "Fuori a Milano",
-        "detail": "Poke: riso circa 200 g cotto + doppio pollo o tonno (circa 150 g). Oppure piadina con cotto 80 g, o carne alla griglia 200 g + patate 300 g o pane 80 g",
-        "kcal": 530,
-        "protein": 54,
+        "id": "M2",
+        "title": "Poke a Milano",
+        "detail": "Poke: riso circa 200 g cotto + doppio pollo o tonno (circa 150 g) + pomodorini + soia. No maionese, spicy mayo, tempura",
         "ingredients": [
           {
             "item": "riso_cotto",
@@ -905,6 +1087,8 @@
             "qty": 10
           }
         ],
+        "kcal": 530,
+        "protein": 54,
         "carbs": 60,
         "fat": 6
       },
@@ -936,7 +1120,7 @@
       "colazione": {
         "id": "E",
         "title": "Al bar",
-        "detail": "Cappuccino + toast con 2 fette di pancarré (50 g) e cotto 40 g (o yogurt greco 0% 250 g + 1 frutto)",
+        "detail": "Cappuccino + toast con 2 fette di pancarré (50 g) e cotto 40 g",
         "kcal": 335,
         "protein": 19,
         "ingredients": [
@@ -953,11 +1137,9 @@
         "fat": 14
       },
       "pranzo": {
-        "id": "M3",
-        "title": "Fuori a Milano",
-        "detail": "Come lunedì (poke: riso circa 200 g cotto + pollo o tonno 150 g), ma cambia locale o piatto",
-        "kcal": 530,
-        "protein": 54,
+        "id": "M2",
+        "title": "Poke a Milano",
+        "detail": "Poke: riso circa 200 g cotto + doppio pollo o tonno (circa 150 g) + pomodorini + soia. No maionese, spicy mayo, tempura · cambia locale rispetto a lunedì",
         "ingredients": [
           {
             "item": "riso_cotto",
@@ -977,6 +1159,8 @@
             "qty": 10
           }
         ],
+        "kcal": 530,
+        "protein": 54,
         "carbs": 60,
         "fat": 6
       },
@@ -1039,7 +1223,7 @@
       "pranzo": {
         "id": "M1",
         "title": "Mensa",
-        "detail": "Secondo circa 200 g (meglio il bis) + un solo carboidrato: 1 piatto di pasta o riso (80-100 g a crudo) oppure patate 300 g oppure pane 80 g + pomodori + 1 frutto",
+        "detail": "Secondo di carne, uova o tonno circa 200 g (meglio il bis) + un solo carboidrato: 1 piatto di pasta o riso (circa 80-100 g a crudo) oppure patate 300 g oppure pane 80 g + pomodori + 1 frutto",
         "kcal": 855,
         "protein": 69,
         "ingredients": [
@@ -1210,11 +1394,11 @@
         "fat": 4
       },
       "pranzo": {
-        "id": "P2",
-        "title": "Pasta al tonno",
-        "detail": "Pasta 100 g + 2 scatolette di tonno (160 g sgocciolato) + passata 100 g + olio 10 g · 15 min",
-        "kcal": 645,
-        "protein": 53,
+        "id": "P2-ven",
+        "title": "Pasta al tonno (senza parmigiano)",
+        "detail": "Pasta 100 g + 3 scatolette di tonno al naturale da 80 g (circa 160 g sgocciolato) + passata 100 g + olio 10 g · 15 min",
+        "kcal": 640,
+        "protein": 51,
         "ingredients": [
           {
             "item": "pasta",
@@ -1222,7 +1406,7 @@
           },
           {
             "item": "tonno",
-            "qty": 2
+            "qty": 3
           },
           {
             "item": "passata",
@@ -1237,11 +1421,11 @@
         "fat": 13
       },
       "spuntino": {
-        "id": "S8",
+        "id": "S8-ven",
         "title": "Shake e mela, poi notte",
-        "detail": "Shake whey 30 g in 300 ml d'acqua + 1 mela (150 g) prima di riposare. Durante la notte: yogurt greco 0% 170 g, più tardi 1 scatoletta di tonno (80 g sgocciolato) + 3 gallette (25 g)",
-        "kcal": 465,
-        "protein": 62,
+        "detail": "Shake whey 30 g in 300 ml d'acqua + 1 mela (150 g) prima di riposare. Durante la notte: yogurt greco 0% 170 g, più tardi 2 scatolette di tonno da 80 g (circa 105 g sgocciolato) + 3 gallette (25 g)",
+        "kcal": 490,
+        "protein": 67,
         "ingredients": [
           {
             "item": "whey",
@@ -1261,7 +1445,7 @@
           },
           {
             "item": "tonno",
-            "qty": 1
+            "qty": 2
           },
           {
             "item": "gallette",
@@ -1323,7 +1507,7 @@
         "fat": 14
       },
       "spuntino": {
-        "id": "S1",
+        "id": "S1-sab",
         "title": "Yogurt e banana, poi notte",
         "detail": "Verso le 17: yogurt greco 0% 170 g + 1 banana (120 g). Durante la notte: fiocchi di latte 200 g + 3 gallette (25 g), più tardi 1 frutto (150 g)",
         "kcal": 570,
@@ -1383,9 +1567,9 @@
       "pranzo": {
         "id": "P2",
         "title": "Pasta al tonno (al risveglio)",
-        "detail": "Pasta 100 g + 2 scatolette di tonno (160 g sgocciolato) + passata 100 g + parmigiano 10 g + olio 10 g · 15 min",
-        "kcal": 685,
-        "protein": 56,
+        "detail": "Pasta 100 g + 3 scatolette di tonno al naturale da 80 g (circa 160 g sgocciolato) + passata 100 g + parmigiano 10 g + olio 10 g · 15 min",
+        "kcal": 680,
+        "protein": 54,
         "ingredients": [
           {
             "item": "pasta",
@@ -1393,7 +1577,7 @@
           },
           {
             "item": "tonno",
-            "qty": 2
+            "qty": 3
           },
           {
             "item": "passata",
@@ -1494,12 +1678,12 @@
     },
     {
       "id": "tonno",
-      "name": "Tonno al naturale (scatoletta, 80 g sgocciolato)",
+      "name": "Tonno al naturale (scatoletta da 80 g, ~52 g sgocciolato)",
       "unit": "pz",
-      "kcal": 85,
-      "protein": 19.5,
+      "kcal": 55,
+      "protein": 12.4,
       "carbs": 0,
-      "fat": 0.8,
+      "fat": 0.5,
       "plural": "scatolette",
       "single": "scatoletta"
     },
@@ -1786,10 +1970,33 @@
       "carbs": 36,
       "fat": 15,
       "track": false
+    },
+    {
+      "id": "panino_bar",
+      "name": "Toast o panino al bar (pane 80 g + cotto o pollo)",
+      "unit": "pz",
+      "kcal": 330,
+      "protein": 19,
+      "carbs": 45,
+      "fat": 8,
+      "track": false
+    },
+    {
+      "id": "patate_forno",
+      "name": "Patate al forno (ristorante)",
+      "unit": "g",
+      "kcal": 150,
+      "protein": 2.5,
+      "carbs": 22,
+      "fat": 6,
+      "track": false
     }
   ],
   "shoppingStock": {
-    "Petto di pollo 600 g (compralo mar/mer)": {
+    "Pollo o tacchino per la griglia 400 g (compralo lunedì: cene di lun e mar)": {
+      "pollo": 400
+    },
+    "Petto di pollo 600 g (compralo giovedì: pranzi di gio e sab, cena di ven)": {
       "pollo": 600
     },
     "Macinato di manzo magro 350 g (compralo mar/mer)": {
@@ -1804,8 +2011,8 @@
     "Albume in brick 500 g": {
       "albume": 500
     },
-    "Tonno al naturale 6 scatolette": {
-      "tonno": 6
+    "Tonno al naturale 8 scatolette da 80 g": {
+      "tonno": 8
     },
     "Yogurt greco 0% 1,4 kg (va bene la marca del supermercato)": {
       "yogurt": 1400
@@ -1813,11 +2020,11 @@
     "Latte parzialmente scremato 1 litro": {
       "latte": 1000
     },
-    "Fiocchi di latte 1": {
+    "Fiocchi di latte 200 g": {
       "fiocchi": 200
     },
-    "Parmigiano 1 pezzo piccolo": {
-      "parmigiano": 150
+    "Parmigiano 50 g": {
+      "parmigiano": 50
     },
     "Pasta 500 g": {
       "pasta": 500
@@ -1825,19 +2032,19 @@
     "Riso 500 g": {
       "riso": 500
     },
-    "Pane ~350 g": {
+    "Pane 350 g": {
       "pane": 350
     },
-    "Gallette 1 pacco": {
+    "Gallette di riso 1 pacco (circa 16)": {
       "gallette": 16
     },
-    "Patate 1 kg": {
-      "patate": 1000
+    "Patate 1,2 kg": {
+      "patate": 1200
     },
     "Avena 500 g": {
       "avena": 500
     },
-    "Cereali 1 scatola": {
+    "Cereali 375 g (1 scatola)": {
       "cereali": 375
     },
     "Banane 10": {
@@ -1849,12 +2056,13 @@
     "Arance o mandarini 1 kg": {
       "arancia": 6
     },
-    "Pomodori 1 kg": {
-      "pomodori": 1000
+    "Pomodori 1,2 kg": {
+      "pomodori": 1200
     },
-    "Passata 2 bottiglie": {
-      "passata": 1400
+    "Passata di pomodoro 700 g (1 bottiglia)": {
+      "passata": 700
     }
   },
-  "creatineHow": "5 g (1 cucchiaino raso) sciolti in un bicchiere d'acqua da 250 ml, tutti i giorni anche senza palestra. L'orario non conta."
+  "creatineHow": "5 g (1 cucchiaino raso) sciolti in un bicchiere d'acqua da 250 ml, tutti i giorni anche senza palestra. L'orario non conta.",
+  "weekOf": "2026-10-19"
 }
