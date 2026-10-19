@@ -13,27 +13,27 @@
       "tintColor": "#FF6A00",
       "versions": [
         {
+          "version": "1.3.38",
+          "date": "2026-10-19",
+          "localizedDescription": "Backup automatico dei dati (resta anche se disinstalli l'app), esporta e ripristina backup in Impostazioni",
+          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.38.ipa",
+          "size": 2525601,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.3.37",
           "date": "2026-10-19",
           "localizedDescription": "Pesi Liftoff corretti, notifiche giuste col cambio d'ora, dispensa, alternative separate, spesa completa, dati più sicuri",
           "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.37.ipa",
           "size": 2511123,
           "minOSVersion": "17.0"
-        },
-        {
-          "version": "1.3.34",
-          "date": "2026-10-19",
-          "localizedDescription": "Dispensa collegata a spesa e pasti, dosi e valori di ogni alimento",
-          "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.34.ipa",
-          "size": 2462192,
-          "minOSVersion": "17.0"
         }
       ],
-      "version": "1.3.37",
+      "version": "1.3.38",
       "versionDate": "2026-10-19",
-      "versionDescription": "Pesi Liftoff corretti, notifiche giuste col cambio d'ora, dispensa, alternative separate, spesa completa, dati più sicuri",
-      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.37.ipa",
-      "size": 2511123
+      "versionDescription": "Backup automatico dei dati (resta anche se disinstalli l'app), esporta e ripristina backup in Impostazioni",
+      "downloadURL": "https://raw.githubusercontent.com/SamuelGenna04/recomp-source/main/builds/Recomp-1.3.38.ipa",
+      "size": 2525601
     }
   ],
   "news": []
